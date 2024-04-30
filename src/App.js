@@ -18,7 +18,7 @@ function App() {
       }
       catch (e) {
         console.log(e);
-        alert("Error in fetching data")
+        alert("failed to fetch data")
       }
     }
      fetchData();
